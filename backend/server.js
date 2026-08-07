@@ -1,17 +1,18 @@
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
-
-// Import connectDB
 const connectDB = require('./config/db');
+const apiRoutes = require('./routes/apiRoutes'); // <-- Import Router
 
-// Jalankan Koneksi Database
 connectDB();
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
+
+// Gunakan Prefix /api
+app.use('/api', apiRoutes); // <-- Gunakan Router
 
 app.get('/', (req, res) => {
     res.send('API Sistem Pengaduan Sekolah Berjalan!');
