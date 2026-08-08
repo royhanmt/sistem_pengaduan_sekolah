@@ -16,3 +16,7 @@ backend/  -> Express Server & Mongoose Models
 
 ## Troubleshooting
 If MongoDB fails to connect, ensure your IP address is whitelisted in MongoDB Atlas Network Access.
+
+## Future Roadmap
+- Role-based Access Control (Admin/User)
+- File Upload attachment support for complaints
