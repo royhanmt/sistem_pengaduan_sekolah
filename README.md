@@ -7,3 +7,9 @@
 
 ## Environment Variables
 Refer to `backend/.env.example` and `frontend/.env.example` for required keys.
+
+## Directory Structure
+```
+frontend/ -> React Vite Source
+backend/  -> Express Server & Mongoose Models
+```
