@@ -20,3 +20,6 @@ If MongoDB fails to connect, ensure your IP address is whitelisted in MongoDB At
 ## Future Roadmap
 - Role-based Access Control (Admin/User)
 - File Upload attachment support for complaints
+
+## License
+This project is created for academic examination purposes.
