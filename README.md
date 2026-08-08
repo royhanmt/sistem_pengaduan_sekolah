@@ -13,3 +13,6 @@ Refer to `backend/.env.example` and `frontend/.env.example` for required keys.
 frontend/ -> React Vite Source
 backend/  -> Express Server & Mongoose Models
 ```
+
+## Troubleshooting
+If MongoDB fails to connect, ensure your IP address is whitelisted in MongoDB Atlas Network Access.
