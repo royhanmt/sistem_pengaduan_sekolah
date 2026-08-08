@@ -20,4 +20,4 @@ const Navbar = ({ toggleSidebar }) => {
     );
 };
 
-export default Navbar;
+export default Navbar;// Custom Navigation Bar Component with Responsive Toggle
